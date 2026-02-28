@@ -11,3 +11,4 @@
 ## Tooling
 - [github/spec-kit - Toolkit to help you get started with Spec-Driven Development](https://github.com/github/spec-kit/)
 - [Tessl is a platform for managing context for coding agents](https://tessl.io/)
+- [IBM/iac-spec-kit - AI-assisted workflows for translating business requirements into infrastructure code](https://github.com/IBM/iac-spec-kit)
