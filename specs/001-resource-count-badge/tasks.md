@@ -24,7 +24,7 @@
 
 **Purpose**: Create the project directory structure for the script
 
-- [ ] T001 Create `scripts/` directory at repository root
+- [x] T001 Create `scripts/` directory at repository root
 
 **Checkpoint**: Directory structure ready for script creation
 
@@ -38,9 +38,9 @@
 
 ### Implementation for User Story 1
 
-- [ ] T002 [US1] Insert badge markdown into README.md — add `![Resources](https://img.shields.io/badge/resources-0-blue)` on a new line after the tagline blockquote (`> ...`) and before the first `## ` section heading
-- [ ] T003 [US1] Create `scripts/update-badge.sh` — write a bash script that: (1) counts lines starting with `- ` in README.md using grep, (2) updates the badge URL count in-place using sed, (3) prints old and new count to stdout for verification
-- [ ] T004 [US1] Make `scripts/update-badge.sh` executable (`chmod +x`) and run it to set the initial badge count in README.md
+- [x] T002 [US1] Insert badge markdown into README.md — add `![Resources](https://img.shields.io/badge/resources-0-blue)` on a new line after the tagline blockquote (`> ...`) and before the first `## ` section heading
+- [x] T003 [US1] Create `scripts/update-badge.sh` — write a bash script that: (1) counts lines starting with `- ` in README.md using grep, (2) updates the badge URL count in-place using sed, (3) prints old and new count to stdout for verification
+- [x] T004 [US1] Make `scripts/update-badge.sh` executable (`chmod +x`) and run it to set the initial badge count in README.md
 
 **Checkpoint**: Badge is visible in README.md with accurate count. Running `scripts/update-badge.sh` updates the count correctly when resources are added or removed.
 
@@ -54,8 +54,8 @@
 
 ### Implementation for User Story 2
 
-- [ ] T005 [US2] Enhance counting logic in `scripts/update-badge.sh` — replace simple grep with awk that tracks fenced code block state (toggle on lines matching `` ``` ``), only counting `- ` lines when outside a code block
-- [ ] T006 [US2] Verify script accuracy by running `scripts/update-badge.sh` against README.md and comparing the output count to a manual count of resource entries
+- [x] T005 [US2] Enhance counting logic in `scripts/update-badge.sh` — replace simple grep with awk that tracks fenced code block state (toggle on lines matching `` ``` ``), only counting `- ` lines when outside a code block
+- [x] T006 [US2] Verify script accuracy by running `scripts/update-badge.sh` against README.md and comparing the output count to a manual count of resource entries
 
 **Checkpoint**: Script correctly counts only `- ` lines outside fenced code blocks. Badge count in README.md is accurate.
 
@@ -65,7 +65,7 @@
 
 **Purpose**: Final validation and documentation alignment
 
-- [ ] T007 Validate quickstart.md instructions by running each documented command from specs/001-resource-count-badge/quickstart.md and confirming output matches expectations
+- [x] T007 Validate quickstart.md instructions by running each documented command from specs/001-resource-count-badge/quickstart.md and confirming output matches expectations
 
 ---
 
