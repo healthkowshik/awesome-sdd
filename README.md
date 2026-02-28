@@ -14,3 +14,6 @@
 - [buildermethods/agent-os - System for injecting your codebase standards and writing better specs for spec-driven development.](https://github.com/buildermethods/agent-os)
 - [Fission-AI/OpenSpec - Spec-driven development (SDD) for AI coding assistants.](https://github.com/Fission-AI/OpenSpec)
 - [IBM/iac-spec-kit - AI-assisted workflows for translating business requirements into infrastructure code](https://github.com/IBM/iac-spec-kit)
+
+## Videos
+- [Net Ninja - GitHub Spec Kit Tutorials](https://www.youtube.com/playlist?list=PL4cUxeGkcC9h9RbDpG8ZModUzwy45tLjb)
