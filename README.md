@@ -12,4 +12,5 @@
 - [github/spec-kit - Toolkit to help you get started with Spec-Driven Development](https://github.com/github/spec-kit/)
 - [tesslio/cli - Tessl is an Agent Enablement Platform that gives your agents the context they're missing.](https://tessl.io/)
 - [buildermethods/agent-os - System for injecting your codebase standards and writing better specs for spec-driven development.](https://github.com/buildermethods/agent-os)
+- [Fission-AI/OpenSpec - Spec-driven development (SDD) for AI coding assistants.](https://github.com/Fission-AI/OpenSpec)
 - [IBM/iac-spec-kit - AI-assisted workflows for translating business requirements into infrastructure code](https://github.com/IBM/iac-spec-kit)
