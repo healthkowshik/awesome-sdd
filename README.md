@@ -2,7 +2,7 @@
 
 > 😎 Awesome lists about Spec-Driven Development
 
-![Resources](https://img.shields.io/badge/resources-11-blue)
+![Resources](https://img.shields.io/badge/resources-12-blue)
 
 ## Articles
 - [RedHat Developers - How spec-driven development improves AI coding quality](https://developers.redhat.com/articles/2025/10/22/how-spec-driven-development-improves-ai-coding-quality)
