@@ -18,6 +18,7 @@
 - [Fission-AI/OpenSpec - Spec-driven development (SDD) for AI coding assistants.](https://github.com/Fission-AI/OpenSpec)
 - [AWS Kiro helps you do your best work by bringing structure to AI coding with spec-driven development.](https://kiro.dev/)
 - [MrLesk/Backlog.md - A tool for managing project collaboration between humans and AI Agents in a git ecosystem](https://github.com/MrLesk/Backlog.md)
+- [gemini-cli-extensions/conductor - Conductor is a Gemini CLI extension that allows you to specify, plan, and implement software features.](https://github.com/gemini-cli-extensions/conductor)
 - [IBM/iac-spec-kit - AI-assisted workflows for translating business requirements into infrastructure code](https://github.com/IBM/iac-spec-kit)
 
 ## Videos
