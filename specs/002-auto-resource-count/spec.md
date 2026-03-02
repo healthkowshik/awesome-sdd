@@ -23,21 +23,6 @@ As a contributor, when I add or remove a resource entry in the README, the resou
 
 ---
 
-### User Story 2 - Contributor Gets Feedback on Count Mismatch (Priority: P2)
-
-As a contributor, when I submit a change that would cause the badge count to be wrong, I should receive clear feedback indicating the mismatch so I can fix it before the change is merged.
-
-**Why this priority**: Feedback helps contributors understand the automation and catch issues early. This is secondary to the automation itself but important for a smooth contributor experience.
-
-**Independent Test**: Can be fully tested by submitting a README change where the badge count doesn't match the actual resource count and verifying that feedback is provided.
-
-**Acceptance Scenarios**:
-
-1. **Given** a contributor adds a resource but doesn't update the badge, **When** the automation runs, **Then** the contributor receives clear feedback that the badge count is out of date.
-2. **Given** a contributor submits a change that doesn't affect resource count, **When** the automation runs, **Then** no mismatch feedback is generated.
-
----
-
 ### Edge Cases
 
 - What happens when the README contains list items inside fenced code blocks? (They should not be counted as resources — the existing script already handles this.)
@@ -53,8 +38,7 @@ As a contributor, when I submit a change that would cause the badge count to be 
 - **FR-002**: The system MUST update the shields.io badge count to match the actual number of resource entries.
 - **FR-003**: The system MUST only count list items (lines starting with `- `) that are outside fenced code blocks, consistent with the existing counting logic.
 - **FR-004**: The system MUST not make changes when the badge count already matches the actual resource count.
-- **FR-005**: The system MUST provide feedback to contributors when a count mismatch is detected.
-- **FR-006**: The system MUST run automatically on every push to the main branch that modifies the README, and auto-commit the corrected badge count if a mismatch is detected.
+- **FR-005**: The system MUST run automatically on every push to the main branch that modifies the README, and auto-commit the corrected badge count if a mismatch is detected.
 
 ### Key Entities
 
@@ -66,8 +50,13 @@ As a contributor, when I submit a change that would cause the badge count to be 
 ### Measurable Outcomes
 
 - **SC-001**: 100% of merged README changes result in an accurate badge count with zero manual intervention.
-- **SC-002**: Contributors receive feedback on count mismatches within the normal contribution workflow (no extra steps required).
-- **SC-003**: No false positives — list items inside code blocks, comments, or non-resource sections are never miscounted.
+- **SC-002**: No false positives — list items inside code blocks, comments, or non-resource sections are never miscounted.
+
+## Clarifications
+
+### Session 2026-03-02
+
+- Q: User Story 2 describes feedback "before the change is merged," but the chosen approach auto-commits fixes after push to main. How should this tension be resolved? → A: Remove US2 — auto-commit handles everything; no separate feedback step needed.
 
 ## Assumptions
 
