@@ -2,7 +2,7 @@
 
 > 😎 Awesome lists about Spec-Driven Development
 
-![Resources](https://img.shields.io/badge/resources-10-blue)
+![Resources](https://img.shields.io/badge/resources-11-blue)
 
 ## Articles
 - [RedHat Developers - How spec-driven development improves AI coding quality](https://developers.redhat.com/articles/2025/10/22/how-spec-driven-development-improves-ai-coding-quality)
@@ -15,6 +15,7 @@
 - [buildermethods/agent-os - System for injecting your codebase standards and writing better specs for spec-driven development.](https://github.com/buildermethods/agent-os)
 - [Fission-AI/OpenSpec - Spec-driven development (SDD) for AI coding assistants.](https://github.com/Fission-AI/OpenSpec)
 - [AWS Kiro helps you do your best work by bringing structure to AI coding with spec-driven development.](https://kiro.dev/)
+- [MrLesk/Backlog.md - A tool for managing project collaboration between humans and AI Agents in a git ecosystem](https://github.com/MrLesk/Backlog.md)
 - [IBM/iac-spec-kit - AI-assisted workflows for translating business requirements into infrastructure code](https://github.com/IBM/iac-spec-kit)
 
 ## Videos
