@@ -59,7 +59,7 @@
 **Purpose**: Validation and documentation
 
 - [x] T009 Run quickstart.md validation — verify end-to-end by adding a test resource, pushing, and confirming auto-commit appears *(verified: workflow run 22600418391 updated badge 11→12)*
-- [ ] T010 Verify no-op behavior — push a README change that doesn't affect resource count and confirm no auto-commit is created *(requires merge to main)*
+- [x] T010 Verify no-op behavior — push a README change that doesn't affect resource count and confirm no auto-commit is created *(verified: commit 6081387 did not touch README.md, workflow correctly skipped via path filter)*
 
 ---
 
