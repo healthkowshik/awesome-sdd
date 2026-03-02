@@ -8,6 +8,7 @@
 - [RedHat Developers - How spec-driven development improves AI coding quality](https://developers.redhat.com/articles/2025/10/22/how-spec-driven-development-improves-ai-coding-quality)
 - [Martin Fowler - Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
 - [ThoughtWorks - Spec-driven development, Technology Radar](https://www.thoughtworks.com/radar/techniques/spec-driven-development)
+- [Geoffrey Huntley - Ralph Wiggum as a "software engineer"](https://ghuntley.com/ralph/)
 
 ## Tooling
 - [github/spec-kit - Toolkit to help you get started with Spec-Driven Development](https://github.com/github/spec-kit/)

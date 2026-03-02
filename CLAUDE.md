@@ -3,6 +3,8 @@
 Auto-generated from all feature plans. Last updated: 2026-02-28
 
 ## Active Technologies
+- Bash (POSIX-compatible) + GitHub Actions YAML + GitHub Actions (`actions/checkout`, `git`) (002-auto-resource-count)
+- N/A (file-based, README.md only) (002-auto-resource-count)
 
 - Bash (POSIX-compatible shell script) + grep, sed (standard Unix tools) (001-resource-count-badge)
 
@@ -22,6 +24,7 @@ tests/
 Bash (POSIX-compatible shell script): Follow standard conventions
 
 ## Recent Changes
+- 002-auto-resource-count: Added Bash (POSIX-compatible) + GitHub Actions YAML + GitHub Actions (`actions/checkout`, `git`)
 
 - 001-resource-count-badge: Added Bash (POSIX-compatible shell script) + grep, sed (standard Unix tools)
 
