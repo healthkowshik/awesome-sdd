@@ -26,7 +26,7 @@ As a contributor, when I add or remove a resource entry in the README, the resou
 ### Edge Cases
 
 - What happens when the README contains list items inside fenced code blocks? (They should not be counted as resources — the existing script already handles this.)
-- What happens when the badge URL pattern is missing or malformed in the README?
+- What happens when the badge URL pattern is missing or malformed in the README? (The existing script exits with error code 1, causing the workflow run to fail visibly in the Actions tab. No auto-commit is made.)
 - What happens when a contributor adds multiple resources in a single change?
 - What happens when the resource count goes to zero (all resources removed)?
 

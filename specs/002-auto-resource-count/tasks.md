@@ -19,7 +19,7 @@
 
 **Purpose**: Create the directory structure needed for the GitHub Actions workflow
 
-- [ ] T001 Create `.github/workflows/` directory at repository root
+- [ ] T001 [P] Create `.github/workflows/` directory at repository root
 
 ---
 
@@ -29,7 +29,7 @@
 
 **CRITICAL**: The workflow (Phase 3) calls this script, so it must work on Ubuntu Linux first
 
-- [ ] T002 Fix sed portability in `scripts/update-badge.sh` — replace `sed -i ''` with `sed -i.bak` followed by `rm "$README.bak"` so the script works on both macOS (BSD sed) and Linux (GNU sed)
+- [ ] T002 [P] Fix sed portability in `scripts/update-badge.sh` — replace `sed -i ''` with `sed -i.bak` followed by `rm "$README.bak"` so the script works on both macOS (BSD sed) and Linux (GNU sed)
 
 **Checkpoint**: `scripts/update-badge.sh` runs correctly on both macOS and Linux
 
