@@ -9,6 +9,7 @@
 - [Martin Fowler - Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
 - [ThoughtWorks - Spec-driven development, Technology Radar](https://www.thoughtworks.com/radar/techniques/spec-driven-development)
 - [Geoffrey Huntley - Ralph Wiggum as a "software engineer"](https://ghuntley.com/ralph/)
+- [Amazon AWS - From spec to production: a three-week drug discovery agent using Kiro](https://aws.amazon.com/blogs/industries/from-spec-to-production-a-three-week-drug-discovery-agent-using-kiro/)
 
 ## Tooling
 - [github/spec-kit - Toolkit to help you get started with Spec-Driven Development](https://github.com/github/spec-kit/)
