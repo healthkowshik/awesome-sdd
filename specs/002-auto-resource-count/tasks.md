@@ -19,7 +19,7 @@
 
 **Purpose**: Create the directory structure needed for the GitHub Actions workflow
 
-- [ ] T001 [P] Create `.github/workflows/` directory at repository root
+- [x] T001 [P] Create `.github/workflows/` directory at repository root
 
 ---
 
@@ -29,7 +29,7 @@
 
 **CRITICAL**: The workflow (Phase 3) calls this script, so it must work on Ubuntu Linux first
 
-- [ ] T002 [P] Fix sed portability in `scripts/update-badge.sh` — replace `sed -i ''` with `sed -i.bak` followed by `rm "$README.bak"` so the script works on both macOS (BSD sed) and Linux (GNU sed)
+- [x] T002 [P] Fix sed portability in `scripts/update-badge.sh` — replace `sed -i ''` with `sed -i.bak` followed by `rm "$README.bak"` so the script works on both macOS (BSD sed) and Linux (GNU sed)
 
 **Checkpoint**: `scripts/update-badge.sh` runs correctly on both macOS and Linux
 
@@ -43,12 +43,12 @@
 
 ### Implementation for User Story 1
 
-- [ ] T003 [US1] Create GitHub Actions workflow file at `.github/workflows/update-badge.yml` with trigger configuration: `on: push` to `main` branch, path filter on `README.md` (per research decision R4)
-- [ ] T004 [US1] Add checkout step using `actions/checkout@v4` in `.github/workflows/update-badge.yml`
-- [ ] T005 [US1] Add step to run `scripts/update-badge.sh` and capture output in `.github/workflows/update-badge.yml`
-- [ ] T006 [US1] Add step to check for changes using `git diff --quiet README.md` in `.github/workflows/update-badge.yml`
-- [ ] T007 [US1] Add auto-commit step in `.github/workflows/update-badge.yml` — configure git user as `github-actions[bot]` with email `github-actions[bot]@users.noreply.github.com`, commit message includes `[skip ci]` to prevent infinite loops (per research decisions R2, R3)
-- [ ] T008 [US1] Add `git push` step in `.github/workflows/update-badge.yml`, conditional on changes detected in T006
+- [x] T003 [US1] Create GitHub Actions workflow file at `.github/workflows/update-badge.yml` with trigger configuration: `on: push` to `main` branch, path filter on `README.md` (per research decision R4)
+- [x] T004 [US1] Add checkout step using `actions/checkout@v4` in `.github/workflows/update-badge.yml`
+- [x] T005 [US1] Add step to run `scripts/update-badge.sh` and capture output in `.github/workflows/update-badge.yml`
+- [x] T006 [US1] Add step to check for changes using `git diff --quiet README.md` in `.github/workflows/update-badge.yml`
+- [x] T007 [US1] Add auto-commit step in `.github/workflows/update-badge.yml` — configure git user as `github-actions[bot]` with email `github-actions[bot]@users.noreply.github.com`, commit message includes `[skip ci]` to prevent infinite loops (per research decisions R2, R3)
+- [x] T008 [US1] Add `git push` step in `.github/workflows/update-badge.yml`, conditional on changes detected in T006
 
 **Checkpoint**: User Story 1 is fully functional — pushing a README change to `main` triggers the workflow which auto-fixes the badge count
 
@@ -58,8 +58,8 @@
 
 **Purpose**: Validation and documentation
 
-- [ ] T009 Run quickstart.md validation — verify end-to-end by adding a test resource, pushing, and confirming auto-commit appears
-- [ ] T010 Verify no-op behavior — push a README change that doesn't affect resource count and confirm no auto-commit is created
+- [ ] T009 Run quickstart.md validation — verify end-to-end by adding a test resource, pushing, and confirming auto-commit appears *(requires merge to main)*
+- [ ] T010 Verify no-op behavior — push a README change that doesn't affect resource count and confirm no auto-commit is created *(requires merge to main)*
 
 ---
 

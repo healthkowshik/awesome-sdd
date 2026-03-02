@@ -36,6 +36,7 @@ if [ "$OLD_COUNT" = "$NEW_COUNT" ]; then
 fi
 
 # Update the badge count in-place
-sed -i '' "s|img\.shields\.io/badge/resources-${OLD_COUNT}-blue|img.shields.io/badge/resources-${NEW_COUNT}-blue|" "$README"
+sed -i.bak "s|img\.shields\.io/badge/resources-${OLD_COUNT}-blue|img.shields.io/badge/resources-${NEW_COUNT}-blue|" "$README"
+rm -f "$README.bak"
 
 echo "Badge updated: $OLD_COUNT -> $NEW_COUNT"
