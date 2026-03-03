@@ -1,4 +1,4 @@
-# Awesome Spec-Driven Development (SDD)
+# Awesome Spec-Driven Development (SDD) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > 😎 Awesome lists about Spec-Driven Development
 
@@ -12,12 +12,12 @@
 - [Amazon AWS - From spec to production: a three-week drug discovery agent using Kiro](https://aws.amazon.com/blogs/industries/from-spec-to-production-a-three-week-drug-discovery-agent-using-kiro/)
 
 ## Tooling
-- [github/spec-kit - Toolkit to help you get started with Spec-Driven Development](https://github.com/github/spec-kit/)
+- [GitHub/spec-kit - Toolkit to help you get started with Spec-Driven Development](https://github.com/github/spec-kit/)
 - [tesslio/cli - Tessl is an Agent Enablement Platform that gives your agents the context they're missing.](https://tessl.io/)
 - [buildermethods/agent-os - System for injecting your codebase standards and writing better specs for spec-driven development.](https://github.com/buildermethods/agent-os)
 - [Fission-AI/OpenSpec - Spec-driven development (SDD) for AI coding assistants.](https://github.com/Fission-AI/OpenSpec)
 - [AWS Kiro helps you do your best work by bringing structure to AI coding with spec-driven development.](https://kiro.dev/)
-- [MrLesk/Backlog.md - A tool for managing project collaboration between humans and AI Agents in a git ecosystem](https://github.com/MrLesk/Backlog.md)
+- [MrLesk/Backlog.md - A tool for managing project collaboration between humans and AI Agents in a Git ecosystem](https://github.com/MrLesk/Backlog.md)
 - [gemini-cli-extensions/conductor - Conductor is a Gemini CLI extension that allows you to specify, plan, and implement software features.](https://github.com/gemini-cli-extensions/conductor)
 - [IBM/iac-spec-kit - AI-assisted workflows for translating business requirements into infrastructure code](https://github.com/IBM/iac-spec-kit)
 
